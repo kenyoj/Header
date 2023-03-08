@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float1복습</title>
+    <style>
+        *{
+            margin: 0 auto;
+            padding: 0;
+        }
+        header{
+            width: 700px;
+            height: 100px;
+            background-color: yellow;
+            margin: 0 auto;
+        }
+        section{
+            width: 700px;
+        }
+        section::after{
+            content: "";
+            clear: both;
+            display: block;
+        }
+        section > div{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            float: left;
+            margin-right: 50px;
+            
+        }
+        .box03{
+            margin:0;
+        }
+        footer{
+            margin: 0 auto;
+            width: 700px;
+            height:100px;
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        헤더
+    </header>
+    <section>
+        <div class="box01">박스1</div>
+        <div class="box02">박스2</div>
+        <div class="box03">박스3</div>
+    </section>
+    <footer>
+        푸터
+    </footer>
+</body>
+</html>

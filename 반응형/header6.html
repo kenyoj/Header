@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+        ol,ul,li{
+            list-style: none;
+        }
+
+        .wrap{
+            width: 960px;
+            
+            margin: 0 auto;
+        }
+        header{
+            
+        }
+        header h1.wrap{
+            
+            text-align: center;
+            line-height: 60px;
+        }
+        header h1 a{
+            
+        }
+        header nav{
+            
+        }
+        header nav ul.wrap{
+            
+        }
+        header nav ul::after{
+            content: "";
+            clear: both;
+            display: block;
+        }
+        header nav ul li{
+            float: left;
+            width: 160px;
+            height: 40px;          
+            text-align: center;
+        }
+        header nav ul li:last-child{
+            border-right: 1px solid #000;
+            
+            
+        }
+        header nav ul li a{
+            
+            line-height: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            display: block;
+            transition: 0.3s;
+        }
+        header nav ul li a:hover,header nav ul li a:active,header nav ul li a:focus{
+            background-color: #fcc;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        
+        <h1 class="wrap">
+          <a href="#">LOGO</a>
+        </h1>
+
+
+        <nav>
+            <ul class="wrap">
+                <li><a href="">menu1</a></li>
+                <li><a href="">menu2</a></li>
+                <li><a href="">menu3</a></li>
+                <li><a href="">menu4</a></li>
+                <li><a href="">menu5</a></li>
+                <li><a href="">menu6</a></li>
+                    
+            </ul class="wrap">
+            
+        </nav>
+        
+
+    </header>
+
+</body>
+</html>

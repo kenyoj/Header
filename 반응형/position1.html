@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        *{
+            margin: 0 auto;
+            padding: 0;
+        }
+        header, footer{
+            width: 700px;
+            height: 100px;
+            background-color: #cfc;
+        }
+        section{
+            position: relative;
+            width: 700px;
+            height: 200px;
+            background-color: #ffc;
+        }
+        section div{
+            width: 200px;
+            height: 200px;
+            background-color: #cff;
+            
+        }
+        section div:nth-child(1){
+            position: absolute;
+            left: 0;
+            top: 0;
+            
+        }
+        section div:nth-child(2){
+            position: absolute;
+            left: 250px;
+            top: 0;
+            
+        }
+        section div:nth-child(3){
+            position: absolute;
+            right:0px;
+            top: 0;
+            
+        }
+        footer{
+            background-color: #cdc;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <header>header</header>
+    <section>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>
+    <footer>footer</footer>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+</head>
+    <style>
+        /* reset */
+        *{
+            margin: 0 auto;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ol,ul,li,dl{
+            list-style: none;
+        }
+        .wrap{
+            width: 900px;
+            
+        }
+       
+        header h1{ 
+            text-align: center;
+            line-height: 60px;
+        }
+        header ul::after{
+            content: "";
+            clear: both;
+            display: block;
+        }
+        header ul li{
+            width: 150px;
+            float: left;
+            height: 40px;
+        }
+        header ul li a, header ul li a:link, header ul li a:visited{
+            width: 150px;
+             height: 40px;
+            background-color: #cff;
+            text-transform: uppercase;
+            float: left;        
+            display: block;
+            text-align: center;
+            line-height: 40px;      
+            transition: 0.3s;
+        }
+    
+    
+        header ul li a:hover, header ul li a:active,header ul li a:focus{
+            background-color: #009;
+            color: #fff;
+        }
+    </style>
+<body>
+        <header>
+            <div class="wrap">
+            <!-- 제목 -->
+            <h1>
+                <a href="#">LOGO</a>
+            </h1>
+            <!-- 목록 -->
+                <ul>
+                    <li><a href="#">menu1</a></li>
+                    <li><a href="#">menu2</a></li>
+                    <li><a href="#">menu3</a></li>
+                    <li><a href="#">menu4</a></li>
+                    <li><a href="#">menu5</a></li>
+                    <li><a href="#">menu6</a></li>
+                </ul>
+            </div>
+        </header>
+    <section class="section">
+
+    </section>
+    <footer class="footer"></footer>
+    </div>
+</body>
+</html>

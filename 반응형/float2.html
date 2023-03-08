@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{  box-sizing: border-box;
+            margin: 0 auto;
+            padding: 0;
+        }
+        header{
+            width: 980px;
+            height: 100px;
+            background-color: yellow;
+            margin: 0 auto;
+        }
+        section{
+            width: 980px;
+            background-color: #f11;
+            padding-top: 40px;
+            
+        }
+        section::after{
+            content: "";
+            clear: both;
+            display: block;
+        }
+        section div{
+            width: 300px;
+            height: 200px;
+            background-color: blue;
+            
+            margin:0 0 40px 20px; 
+        }
+        .box01{
+            
+            
+            
+        }
+        footer{
+            width: 980px;
+            height: 100px;
+            background-color: #ccc;
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header>헤더</header>
+    <section>
+        <div class="box01">박스1</div>
+        <div class="box02">박스2</div>
+        <div class="box03">박스3</div>
+    </section>
+    <footer>푸터</footer>
+</body>
+</html>
